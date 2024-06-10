@@ -1,0 +1,93 @@
+body{background: #003C43;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+flex-direction: column;}
+
+.todoBox{width: 600px;
+height: 50px;
+border: 2px solid #E3FEF7;
+border-radius: 5px;
+display: flex;
+text-align: center;
+justify-content: center;
+gap: 0px;}
+
+.todoInput{width: 500px;
+height: 50px;
+background:#E3FEF7;
+outline: #003C43;
+border: none;
+border-radius: 3px;
+font-size: 22px;
+font-weight: 900;
+color: #003C43;
+text-align: center;}
+.todoButton{
+    width: 97px;
+    height: 49px;
+    border: none;
+    background: #77B0AA;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003C43;
+    border-radius: 0px;
+
+}
+
+
+.singeltodo{
+    width: 600px;
+    height: 50px;
+    border: 2px solid #E3FEF7;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* display: none; */
+}
+.singeltodoInput{
+ width: 500px;
+height: 50px;
+background:#E3FEF7;
+outline: #003C43;
+border: none;
+border-radius: 3px;
+font-size: 22px;
+font-weight: 900;
+color: #003C43;
+text-align: center;
+margin-top: 20px;
+color: black;
+}
+.editButton{
+    width: 50px;
+    height: 49px;
+    border: none;
+    background: #77B0AA;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003C43;
+    border-radius: 0px;
+    transition: all linear .3s;
+}
+.editButton:hover{
+    color: #77B0AA;
+    background-color: #003C43; 
+}
+.deleteButton{
+    width: 70px;
+    height: 49px;
+    border: none;
+    background: #77B0AA;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003C43;
+    border-radius: 0px;
+    transition: all linear .3s;
+}
+.deleteButton:hover{
+    color: #77B0AA;
+    background-color: #003C43; 
+}
